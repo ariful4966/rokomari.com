@@ -133,6 +133,7 @@ Online Courses Area End
 ============================== */
 section.onlineCourseArea {
     background: #F2F9FF;
+    position: relative;
 }
 .section_heading{
     /* margin-bottom: 30px; */
@@ -181,6 +182,7 @@ section.onlineCourseArea {
     border: 1px solid #fff;
 }
 
+.author img {margin: 0 auto;text-align: center;display: block;}
 .free a {
     background: linear-gradient(45deg, #3E12D4, #67478b);
     color: #fff;
@@ -204,6 +206,32 @@ Testimonial Area Start
 ============================== */
 section.testimonialArea {
     
+}
+.testimonial_content p {
+    position: relative;
+}
+
+.testimonial_content p::after {
+    position: absolute;
+    content: '';
+    background: url(../../images/testimonial/testimonial_blog_icon.png) no-repeat;
+    left: -50px;
+    top:0;
+    width: 50px;
+    height: 50px;
+}
+.testimonial_content p::before {
+    position: absolute;
+    content: '';
+    background: url(../../images/testimonial/testimonial_blog_icon.png) no-repeat;
+    right: -15px;
+    bottom:-10px;
+    width: 50px;
+    height: 50px;
+    transform: rotate(180deg);
+}
+.testimonial_content {
+    padding: 20px;
 }
 .star ul li {
     list-style: none;
@@ -229,11 +257,67 @@ Footer Area Start
     border-radius: 10px;
     margin: 30px 0;
 }
+.subscribeBtn {
+    border-radius: 10px;
+}
+.subscribe_form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribe_heading h3 {
+    font-size: 30px;
+    color: #0051ff;
+    font-weight: 700;
+    font-family: cursive;
+}
+
+.subscribe_heading p {
+    color: #6c6c6c;
+    font-size: 16px;
+    font-weight: 500;
+}
 .footer_section {
     color: #fff;
 }
 .footer_copyright {
-    color: #fff;
+    padding: 20px 0;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: #ffe3e3cc;
+}
+.subscribe_form {
+    display: flex;
+    justify-content: space-between;
+}
+.footerItem {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    color:#cccccc;
+}
+.singleFooter h4 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: eras itc;
+}
+
+.singleFooter ul {
+    margin: 0;
+    padding: 0;
+}
+
+.singleFooter ul li {
+    list-style: none;
+    /* color: #ddf; */
+}
+
+.singleFooter ul li a {
+    color: #cccccc;
+}
+footer.footerArea {
+    padding-bottom: 20px;
 }
 /* ==============================
 Footer Area End
