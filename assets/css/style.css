@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap');
+
+body{
+    /* font-family: 'Lato', sans-serif; */
+font-family: 'Open Sans', sans-serif;
+}
+section, footer {
+    padding: 70px 0;
+
+}
+a, a:hover{
+    text-decoration: none;
+}
+/* ==============================
+Header Area Start
+============================== */
+header.headerArea {
+    border-bottom: 1px solid #ddd;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+}
+.header_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.searchArea select {
+    border: none;
+    width: auto;
+}
+button.searchBtn {
+    background: #005CC8;
+}
+.searchArea input {
+    border: none;
+    border-left: 1px solid #ddd;
+    border-radius: 0px;
+    width: 100%;
+    outline: none;
+}
+
+.searchArea {
+    border-bottom: 2px solid #f7941e;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.search_box {
+    display: block;
+    width: 100%;
+}
+.IconArea {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+/* ==============================
+Header Area End
+============================== */
+
+/* ==============================
+Banner Area Start
+============================== */
+.banner_bg {
+    background-image: linear-gradient(50deg, #270556, #36065C);
+}
+
+.banner {
+    color: #fff;
+}
+.banner_image img {
+    height: 350px;
+    display: block;
+    margin: 0 auto;
+}
+
+.Banner_content h5 {
+    font-size: 20px;
+    color: blue;
+    font-family: sans-serif;
+}
+
+.Banner_content h1 {
+    font-size: 60px;
+    font-family: eras itc;
+    font-weight: 700;
+}
+.btnRokomari {
+    background: #FF1948;
+    width: 200px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    outline: none;
+    height: 40px;
+    border:none;
+}
+
+/* ==============================
+Banner Area End
+============================== */
+
+/* ==============================
+Graduation Area Start
+============================== */
+.graduate_item {
+    background: url(../../images/graduate_item_bg.png) no-repeat center;
+    background-size: cover;
+    box-shadow: 0 0 10px 5px #ddd;
+    padding: 35px 0;
+    margin-bottom: 10px;
+}
+.graduateIcon_box {
+    padding: 15px 0;
+}
+.graduate_icon {
+    width: 90px;
+    height: 90px;
+    background: linear-gradient(to bottom, #9504E1, #4411D5);
+    margin: 0 auto;
+    border-radius: 50%;
+    line-height: 90px;
+}
+
+/* ==============================
+Graduation Area End
+============================== */
+/* ==============================
+Online Courses Area End
+============================== */
+section.onlineCourseArea {
+    background: #F2F9FF;
+}
+.section_heading{
+    /* margin-bottom: 30px; */
+}
+.section_heading h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 50pt;
+    color: #645b5b;
+    margin: 20px;
+}
+
+.section_content {
+    margin-top: 65px;
+}
+.onlineItem_box {
+    background: #fff;
+    width: 100%;
+    display: block;
+    /* padding: 30px; */
+    border-radius: 10px;
+    box-shadow: 0 0 5px 5px #ddd;
+    margin-bottom: 30px;
+}
+.boxContent {
+    padding: 30px;
+    padding-top: 0;
+}
+.onlineBox_pic {
+    width: 100%;
+}
+
+.onlineBox_pic img {
+    width: 100%;
+}
+.onlineBox_author {
+    margin-top: -41px;
+}
+
+.author {
+    width: 85px;
+    height: 85px;
+    background: #CCCCCC;
+    border-radius: 50%;
+    line-height: 90px;
+    border: 1px solid #fff;
+}
+
+.free a {
+    background: linear-gradient(45deg, #3E12D4, #67478b);
+    color: #fff;
+    /* padding: 5px 10px; */
+    border-radius: 15px;
+    width: 80px;
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    font-size: 14px;
+}
+.onlineBox_content {
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+/* ==============================
+Online Courses Area End
+============================== */
+/* ==============================
+Testimonial Area Start
+============================== */
+section.testimonialArea {
+    
+}
+.star ul li {
+    list-style: none;
+}
+
+.star ul {
+    display: flex;
+}
+/* ==============================
+Testimonial Area End
+============================== */
+/* ==============================
+Footer Area Start
+============================== */
+.footerArea{
+    background:url(../../images/assignment.png) no-repeat;
+    background-size: cover;
+}
+.subscribe_section {
+    background: #fff;
+    box-sizing: border-box;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+.footer_section {
+    color: #fff;
+}
+.footer_copyright {
+    color: #fff;
+}
+/* ==============================
+Footer Area End
+============================== */
